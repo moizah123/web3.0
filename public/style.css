@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 78, 117);
+    height: 100px;
+}
+
+.navbar {
+    background-color: rgb(10, 78, 117);
+    height: 70px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin: 50px;
+}
+
+.navbar ul img {
+    margin-left: 50px;
+}
+
+.outer {
+    background-image: url(./images/banner.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.inner{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.inner1{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+.inner1 h1,h2,p{
+    text-align: center;
+    color: white;   
+}
+.inner1 button{
+    background-color: red;
+    color: white;
+    margin-left: 30%;
+    border: 1px solid  rgb(10, 78, 117);
+    font-size: 20px;
+    padding: 10px;
+}
+.inner2{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.abc {
+    background-image: url(./images/FondoMetaversePiso.gif);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.abc1{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.abc2{
+    height: 300px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 14%;
+}
+.abc2 h1,h2,p{
+    text-align: center;
+    color: white;   
+}
+
+.abc2 button{
+    background: none;
+    color: white;
+    margin-left: 30%;
+    border: 1px solid  white;
+    font-size: 20px;
+    padding: 10px;
+}
+.abc3{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.bg{
+    height: 270px;
+    width: 100%;
+}
+.bg img{
+    padding: 10px;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.footer{
+   background-image: linear-gradient(rgb(24, 23, 22), rgb(16, 155, 209), rgb(158, 30, 30));
+    height: 200px;
+    width: 100%;
+    margin-top: 5%;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul{
+    color: white;
+    padding-top: 13px;
+    margin-left: 40%;
+    padding-top: 5%;
+    
+}
+.footer i{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 8px;
+}
+.footer p{
+    margin-right: 70%;
+}
+
